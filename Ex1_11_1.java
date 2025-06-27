@@ -7,28 +7,28 @@ class Ex1_11_1 {
 	public static void main (String[] args) {
 
 			int dice = 0 ; //サイコロの目（初期値：0）
-			
+
 			//サイコロを振る（1〜6までのランダムな値を格納）
 			dice = 1 + (int)( Math.random() * 6.0) ;
-			
+
 			//サイコロの目を表示
 			System.out.println(dice) ;
-			
+
 			//---------------------------------
 			//6の目が出るまでサイコロを振り続ける
 			//---------------------------------
 			while( dice != 6 ){
-				
+
 				//サイコロを振る（1〜6までのランダムな値を格納）
 				dice = 1 + (int)(Math.random() * 6.0) ;
-				
+
 				//サイコロの目を表示
 				System.out.println(dice) ;
-				
+
 			}
-			
+
 			//終了メッセージを表示
-			System.out.println("「6が出たのでを終了します") ;
-			
+			System.out.println("「6が出たので終了します") ;
+
 	}
 }
