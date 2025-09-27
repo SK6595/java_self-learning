@@ -24,7 +24,7 @@ class Sample1_14_4 {
 	}
 
 	static int sum( int num1 , int num2 ) {
-		
+
 		int print = 0 ; //上の箇所の「int print = 0 ;」とはスコープの範囲が異なるため、同じ変数名でも定義ができる。
 
 		int calcResult = num1 + num2 ;
