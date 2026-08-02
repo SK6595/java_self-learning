@@ -29,7 +29,7 @@ public class Main { // 外側のブロックはクラスブロック
     double pi = 3.14; // float pi = 3.14Fでも可
     long number = 314159265853979L;
     String msg = "ミナトの攻撃！敵に15ポイントのダメージを与えた。";
-    System.out.println("私の好きな記号は二重引用符(\")です"); //¥記号よりもバックスラッシュが
+    System.out.println("私の好きな記号は二重引用符(\")です"); //¥記号よりもバックスラッシュが標準
     /*String prof1 = "名前：朝香あゆみ\n （あさかあゆみ）";
     String prof2 = """
                    名前：湊雄輔
@@ -38,5 +38,9 @@ public class Main { // 外側のブロックはクラスブロック
     System.out.println(prof1);
     System.out.println(prof2);
     */
+    a++;
+    System.out.println(a);
+    int age = (int)3.2;
+    System.out.println(age);
   }
 }
