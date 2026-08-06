@@ -40,7 +40,5 @@ public class Main { // 外側のブロックはクラスブロック
     */
     a++;
     System.out.println(a);
-    int age = (int)3.2;
-    System.out.println(age);
   }
 }
