@@ -1,8 +1,8 @@
-public class Main {
+public class Main21 {
   public static int add(int x, int y) {
     int ans = x + y;
     // return文は値を戻すだけでなく メソッドの終了も行う
-    // return文の後に処理を書いても
+    // return文の後に処理を書いても実行されない
     return ans;
   }
   public static void main(String[] args) {
